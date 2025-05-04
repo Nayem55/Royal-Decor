@@ -59,7 +59,7 @@ const Header = () => {
         </Link>
         <div className="flex w-[180px] gap-4 mt-6 lg:hidden items-center">
           <a
-            href="https://www.facebook.com/nextcarefragrances"
+            href="/"
             target="_blank"
             rel="noreferrer"
           >
@@ -75,7 +75,7 @@ const Header = () => {
             </svg>
           </a>
           <a
-            href="https://www.instagram.com/nextcarefragrances"
+            href="/"
             target="_blank"
             rel="noreferrer"
           >
@@ -91,7 +91,7 @@ const Header = () => {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/company/nextcarefragrances/"
+            href="/"
             target="_blank"
             rel="noreferrer"
           >
@@ -122,7 +122,7 @@ const Header = () => {
         }`}
       >
         <a
-          href="https://www.facebook.com/nextcarefragrances"
+          href="/"
           target="_blank"
           rel="noreferrer"
         >
@@ -138,7 +138,7 @@ const Header = () => {
           </svg>
         </a>
         <a
-          href="https://www.instagram.com/nextcarefragrances"
+          href="/"
           target="_blank"
           rel="noreferrer"
         >
@@ -154,7 +154,7 @@ const Header = () => {
           </svg>
         </a>
         <a
-          href="https://www.linkedin.com/company/nextcarefragrances/"
+          href="/"
           target="_blank"
           rel="noreferrer"
         >

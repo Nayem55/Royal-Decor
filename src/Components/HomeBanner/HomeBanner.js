@@ -1,5 +1,6 @@
 // src/Components/HomeBanner/HomeBanner.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HomeBanner = () => {
   return (
@@ -15,8 +16,8 @@ const HomeBanner = () => {
           Elevate your space. Impress every guest. Professional home staging & interior decor tailored for modern living.
         </p>
         <div className="space-x-4">
-          <button className="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-200 transition">Book Consultation</button>
-          <button className="border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition">Our Services</button>
+          <Link to="/contact-us" className="bg-white text-black px-6 py-4 rounded-full hover:bg-gray-200 transition">Book Consultation</Link>
+          <a href='#services' className="border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition">Our Services</a>
         </div>
       </div>
     </section>

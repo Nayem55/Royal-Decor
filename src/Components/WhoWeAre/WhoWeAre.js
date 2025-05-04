@@ -56,7 +56,7 @@ const WhoWeAre = () => {
           >
             <Link
               className="flex items-center gap-3 font-bold hover:text-accent transition-colors truncate"
-              to="/about-us"
+              to="/who-we-are"
               onClick={() => setVisible(false)}
             >
               <span>About Us</span>

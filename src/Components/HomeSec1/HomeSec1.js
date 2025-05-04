@@ -1,5 +1,6 @@
 import React from 'react';
 import { Home, Brush, Building2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const services = [
   {
@@ -66,12 +67,12 @@ const HomeSec1 = () => {
         </div>
 
         <div className="mt-14">
-          <a
-            href="#contact"
+          <Link
+            to="/contact-us"
             className="inline-block bg-black text-white px-8 py-3 rounded-full font-medium hover:bg-gray-800 transition duration-300"
           >
             Enquire About a Service
-          </a>
+          </Link>
         </div>
       </div>
     </section>

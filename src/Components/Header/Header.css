@@ -1,0 +1,134 @@
+/* General styles for the header */
+.header {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    transition: all ease-in-out 200ms;
+  }
+  
+  .logo {
+    width: 180px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    fill: #ffffff;
+    width: 20px;
+  }
+  
+  /* Styles for larger screens (desktops and laptops) */
+  @media (min-width: 1024px) {
+    .logo {
+      width: 180px;
+    }
+  
+    .nav-links {
+      gap: 20px;
+    }
+  
+    .nav-link {
+      font-size: 1rem;
+    }
+  
+    .icon {
+      width: 20px;
+    }
+  }
+  
+  /* Styles for tablets */
+  /* @media (min-width: 768px) and (max-width: 1023px) {
+    .logo {
+      width: 150px;
+    }
+  
+    .nav-links {
+      gap: 15px;
+    }
+  
+    .nav-link {
+      font-size: 0.9rem;
+    }
+  
+    .icon {
+      width: 18px;
+    }
+
+  } */
+  
+  /* Styles for mobile devices */
+  @media (max-width: 1053px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+      position: absolute;
+    }
+  
+    .logo {
+      width: 120px;
+      margin-bottom: 10px;
+      margin: 10px auto;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+      transition: all ease-in-out 200ms;
+      align-items: start;
+    }
+  
+    .nav-link {
+      font-size: 0.8rem;
+    }
+  
+    .icons {
+      margin-top: 10px;
+    }
+  
+    .icon {
+      width: 16px;
+    }
+    .show{
+        position: fixed;
+        left: 0;
+        padding-left: 10px;
+        top: 0px;
+        width: 70vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.726);
+        padding-top: 80px;
+
+    }
+    .hide{
+        position: absolute;
+        left: -1000px;
+        padding-left: 10px;
+        top: 0px;
+        width: 70vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.726);
+        padding-top: 80px;
+    }
+
+  }
+  

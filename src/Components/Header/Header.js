@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <div
       className={`header ${
-        location.pathname === "/" ? "lg:p-10" : "bg-black h-[70px] lg:p-10"
+        location.pathname === "/" ? "lg:p-10" : " lg:p-10"
       } ${
         scrollPosition > 700
           ? "sm:justify-center sm:bg-black sm:opacity-80 sm:h-[70px]"

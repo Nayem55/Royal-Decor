@@ -1,5 +1,4 @@
 import React from "react";
-import banner from "../Images/contact-banner.jpg";
 import ContactForm from "../Components/ContactForm/ContactForm";
 
 const ContactUs = () => {
